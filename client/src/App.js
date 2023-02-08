@@ -1,15 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import TaskDetails from "./components/TaskDetails";
-import Home from "./components/Home";
+import Details from "./pages/Detail";
+import Main from "./pages/Main";
+import "./globalStyles/GlobalStyles.css";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/task/:taskId" element={<TaskDetails />} />
+        <Route path="/" element={<Main />} />
+        {/* <Route path="/task/:taskId" element={<Details />} /> */}
+        <Route path="/details" element={<Details />} />
       </Routes>
     </Router>
   );
 }
+
 export default App;

@@ -1,0 +1,10 @@
+@import "../../../../globalStyles/Variables.scss";
+
+.factor {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+.label {
+    margin-right: 20px;
+    color: $colorText;
+}

@@ -1,0 +1,9 @@
+@import "../../../../globalStyles/Variables.scss";
+
+.dayDisplay {
+    display: flex;
+    justify-content: center;
+    color: $colorText;
+    font-size: 30px;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+@import "../../../globalStyles/Variables.scss";
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.taskTitleSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsSection {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    
+}
+
+.item {
+    margin: 10px 0 10px 0;
+    // height: 30px;
+    color: $colorText;
+}
+
+.hideButton {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+button, input {
+    height: 30px;
+}
+
+label {
+    color: $colorText;
+}

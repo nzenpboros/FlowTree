@@ -1,0 +1,37 @@
+.formBody {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.taskTitleSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.item {
+  margin: 10px 0 10px 0;
+  color: white;
+}
+
+.hideButton {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+button, input {
+  height: 30px;
+}
+
+label {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

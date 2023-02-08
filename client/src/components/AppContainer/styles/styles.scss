@@ -1,0 +1,17 @@
+// AppContainer styles
+
+@import "../../../globalStyles/Variables.scss";
+
+.container {
+    display: flex;
+    justify-content: center;
+    // font-family: $fontMain;
+    
+}
+.appContainer {
+    height: 800px;
+    width: 600px;
+    background-color: $colorBackground;
+    display: flex;
+    flex-direction: column;
+}

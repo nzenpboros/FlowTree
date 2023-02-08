@@ -1,0 +1,28 @@
+@import "../../../../globalStyles/Variables.scss";
+
+.taskSummary {
+    background-color: $colorBackground;
+    border-top: 1px solid gray;
+    color: $colorText;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+.bullet {
+}
+
+.title { 
+    font-size: 20px;
+}
+.task {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}

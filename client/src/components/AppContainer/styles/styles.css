@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.appContainer {
+  height: 800px;
+  width: 600px;
+  background-color: #242F36;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=styles.css.map */

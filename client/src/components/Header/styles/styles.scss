@@ -1,0 +1,14 @@
+@import "../../../globalStyles/Variables.scss";
+
+.header {
+    height: 50px;
+    background-color: $colorContrast;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: $colorText;
+}
+
+.center {
+}
