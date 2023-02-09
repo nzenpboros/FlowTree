@@ -1,9 +1,14 @@
 .header {
-  height: 50px;
+  height: 60px;
   background-color: teal;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }/*# sourceMappingURL=styles.css.map */

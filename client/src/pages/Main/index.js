@@ -10,9 +10,12 @@ import "./styles/styles.css";
 const Main = () => {
     return (
         <AppContainer>
-            <Header leftItem={<Menu />}
+            <Header 
+                    // leftItem={<Menu />}
+                    leftItem="Menu"
                     centerItem={<h1>Plan Mode</h1>}
-                    rightItem={<SortButton />}
+                    // rightItem={<SortButton />}
+                    rightItem="Sort"
             />
             <div className="body">
                 <TaskList />

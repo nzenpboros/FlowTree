@@ -1,14 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import "./styles/styles.css";
 
 const AddTaskButton = () => {
-    const handleClick = () => {
+    const navigate = useNavigate();
 
+    const handleClick = () => {
+        navigate("/task/new");
     }
 
     return (
-        <button classname="button"
+        <button className="addTaskButton"
                 onClick={handleClick}
-                id="addTaskButton"
         >+</button>
     )
 }

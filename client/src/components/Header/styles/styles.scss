@@ -1,7 +1,7 @@
 @import "../../../globalStyles/Variables.scss";
 
 .header {
-    height: 50px;
+    height: 60px;
     background-color: $colorContrast;
     display: flex;
     justify-content: space-between;
@@ -10,5 +10,7 @@
     color: $colorText;
 }
 
-.center {
+a {
+    text-decoration: none;
+    color: $colorText;
 }
